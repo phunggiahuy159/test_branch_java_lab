@@ -19,6 +19,7 @@ public class Cart {
 			System.out.println("The cart is full");
 		}
 	}	
+	
 	public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
 		boolean hasRemoved = false;
 		if (qtyOrdered == 0) {
