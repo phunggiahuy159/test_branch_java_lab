@@ -25,7 +25,7 @@ public class Cart {
 			System.out.println("The cart is empty, cannot delete any_disc");
 			return;
 		}
-		
+		// 'a little it mo
 		for (int i = 0; i < qtyOrdered; i++) {
 			if (itemsOrdered[i].equals(disc)) {
 				for (int j = i+1; j < qtyOrdered; j++) {
